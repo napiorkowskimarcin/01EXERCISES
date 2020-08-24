@@ -37,3 +37,18 @@ for (let i = 0; i < sentenceSplit.length; i++) {
 //console.log(sentenceSplit.join('zzz')); //  put to check how and if it works
 //console.log(sentenceSplit.join('--')); //  put to check how it works
 console.log(sentenceSplit.join(' '));
+
+
+//another exercise. Aim is to check if length of 3 arrays is the same, if yes combine them in one console.log output.
+
+const userAge = [12, 7, 13, 8, 9, 14];
+const userName = ['a1', 'a2', 'a3', 'a4', 'a5', 'a6'];
+const userHeight = [186, 168, 155, 143, 122, 138];
+
+if (userAge.length == userName.length && userHeight.length == userAge.length) {
+    for (let i = 0; i < userAge.length; i++) {
+        console.log(`Ktoś o imieniu ${userName[i]} ma ${userAge[i]} lat i ma ${userHeight[i]} cm wzrostu`)
+    }
+} else {
+    console.log('Tablica jest do dupy');
+}
