@@ -12,6 +12,8 @@ By this morning tried to use bash with init, add, commit, status, log, diff and 
 Btw I used terminal Bash in VSC to push that files. 
 
 Added to see if and how it works.
+
+Checking push with -u origin
 */
 
 let sentence = 'trzech synów matka miała i coś ma dla nich';
